@@ -108,4 +108,5 @@
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
     <string name="title_activity_request_submit">RequestSubmit</string>
+    <string name="UniCom">UniCom</string>
 </resources>
