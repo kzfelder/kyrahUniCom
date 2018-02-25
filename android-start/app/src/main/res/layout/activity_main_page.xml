@@ -10,7 +10,7 @@
     <ImageView
         android:id="@+id/imgViewAppLayout"
         android:layout_width="411dp"
-        android:layout_height="591dp"
+        android:layout_height="588dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
@@ -42,93 +42,110 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <EditText
-                android:id="@+id/edTxtTask1"
-                android:layout_width="325dp"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp"
+            <TextView
+                android:id="@+id/txtViewTask1"
+                android:layout_width="307dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
                 android:layout_marginTop="15dp"
                 android:ems="10"
                 android:inputType="textMultiLine"
-                android:text="\tNeed a producer\n\t \t\t\t\tLil Pump" />
+                android:text="\tNeed a producer\n\t \t\t\t\t- Lil Pump"
+                android:textAlignment="textStart"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
 
-            <EditText
-                android:id="@+id/edTxtTask2"
-                android:layout_width="325dp"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp"
+            <TextView
+                android:id="@+id/txtViewTask2"
+                android:layout_width="307dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
                 android:layout_marginTop="10dp"
                 android:ems="10"
                 android:inputType="textMultiLine"
-                android:text="\tNeed a barber\n\t \t\t\t\tDat Boi" />
+                android:text="\tNeed a barber\n\t \t\t\t\t- Dat Boi"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
 
-            <EditText
-                android:id="@+id/edTxtTask3"
-                android:layout_width="325dp"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp"
+            <TextView
+                android:id="@+id/txtViewTask3"
+                android:layout_width="307dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
                 android:layout_marginTop="15dp"
                 android:ems="10"
                 android:inputType="textMultiLine"
-                android:text="\tNeed a Calculus 2 tutor\n\t \t\t\t\tAlbert Einstien" />
+                android:text="\tNeed a Calculus 2 tutor\n\t \t\t\t\t- Albert Einstien"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
 
-            <EditText
-                android:id="@+id/edTxtTask4"
-                android:layout_width="325dp"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp"
+            <TextView
+                android:id="@+id/txtViewTask4"
+                android:layout_width="307dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
                 android:layout_marginTop="10dp"
                 android:ems="10"
                 android:inputType="textMultiLine"
-                android:text="\tCan someone fix my fan?\n\t \t\t\t\tSasha Fierce" />
+                android:text="\tCan someone fix my fan?\n\t \t\t\t\t- Sasha Fierce"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"/>
 
-            <EditText
-                android:id="@+id/edTxtTask5"
-                android:layout_width="325dp"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp"
+            <TextView
+                android:id="@+id/txtViewTask6"
+                android:layout_width="307dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:text="\tAnyone know how to install memory into a computer?\n\t \t\t\t\t- Bill Gates"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/txtViewTask7"
+                android:layout_width="307dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
                 android:layout_marginTop="15dp"
                 android:ems="10"
                 android:inputType="textMultiLine"
-                android:text="\tWho knows how to do senegalese twists?\n\t \t\t\t\tKim Kardashian" />
+                android:text="\tIn search of a good jewelry store to buy new ice!r\n\t \t\t\t\t- Migos"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"/>
 
-            <EditText
-                android:id="@+id/edTxtTask6"
-                android:layout_width="325dp"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp"
+            <TextView
+                android:id="@+id/txtViewTask8"
+                android:layout_width="307dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
                 android:layout_marginTop="10dp"
                 android:ems="10"
                 android:inputType="textMultiLine"
-                android:text="\tAnyone know how to install memory into a computer?\n\t \t\t\t\tBill Gates" />
+                android:text="\tI need a soccer ball!\n\t \t\t\t\t- Neymar Jr."
+                android:textColor="@android:color/black"
+                android:textSize="16sp"/>
 
-            <EditText
-                android:id="@+id/edTxtTask7"
-                android:layout_width="325dp"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp"
+            <TextView
+                android:id="@+id/txtViewTask5"
+                android:layout_width="307dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
                 android:layout_marginTop="15dp"
                 android:ems="10"
                 android:inputType="textMultiLine"
-                android:text="\tIn search of a good jewelry store to buy new ice!r\n\t \t\t\t\tMigos" />
-
-            <EditText
-                android:id="@+id/edTxtTask8"
-                android:layout_width="325dp"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp"
-                android:layout_marginTop="10dp"
-                android:ems="10"
-                android:inputType="textMultiLine"
-                android:text="\tI need a soccer ball!\n\t \t\t\t\tNeymar Jr." />
+                android:text="\tWho knows how to do senegalese twists?\n\t \t\t\t\t- Kim Kardashian"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"/>
 
 
         </LinearLayout>
